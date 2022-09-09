@@ -96,7 +96,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Multiple wallets</h1>
+        <h1>Wallet Connect</h1>
         {!wallet ? (
           <button onClick={connectWallet}>Connect</button>
         ) : (
